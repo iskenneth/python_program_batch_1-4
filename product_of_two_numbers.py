@@ -7,6 +7,7 @@ while True:
 # multiply the input numbers
         product = num1 * num2 
         print(f"The product of {num1} and num {num2} are {product}") #print result
+        break
     except ValueError:
         print("Invalid Character")
 
