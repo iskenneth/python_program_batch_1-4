@@ -1,3 +1,4 @@
-#loop from 0-100
-#check if number is visible to 2
-# print number
+#loop from 0-100 skip count to 2
+for number in range (0,101,2):
+    print (number, end=" ") # print number
+
