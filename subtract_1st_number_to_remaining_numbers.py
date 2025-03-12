@@ -7,7 +7,7 @@ while True:
             numbers.append(num) #Get the first number
         
         # Subtract the first number to the rest
-         
+         result = numbers[0] - sum(numbers[1:])
          
             
     except ValueError:
