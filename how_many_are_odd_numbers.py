@@ -14,4 +14,4 @@ while inputs < 10:
         print("ERROR!!")
         
 #print how many odd numvers are in the list
-print("Count of Odd Numbers:", odd numbers)    
+print("Count of Odd Numbers:", odd_numbers)    
