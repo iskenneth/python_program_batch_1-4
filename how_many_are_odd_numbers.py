@@ -12,8 +12,6 @@ while inputs < 10:
         inputs +=1    #increase the counters
     except VablueError:
         print("ERROR!!")
-
-
- 
+        
 #print how many odd numvers are in the list
-     
+print("Count of Odd Numbers:", odd numbers)    
