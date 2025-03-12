@@ -4,7 +4,10 @@ while True:
         num1 = float(input("Enter a number:"))
         num2 = float(input("Enter a number:"))
 
+#Proceed to division
+        result = num1 / num2
+        print(f"Quotient:", result)  #Print the quotient     
+        break         
     except ValueError:
         print("ERROR!!!")
-#Proceed to division
-#Print the quotient
+
