@@ -6,6 +6,11 @@ while True:
         
     #Verify if it is equal numbers
         if num1 == num2:
-            print(f"{num1} and {num2} are both                  EQUAL") #print the confirmation
+            print(f"{num1} and {num2} are both EQUAL") 
         else:
-           print("Numbers are not EQUAL")
+           print("Numbers are not EQUAL") #print the confirmation
+        break
+        
+    except ValueError:
+        print("Invalid Character")
+        
