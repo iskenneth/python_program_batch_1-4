@@ -5,10 +5,15 @@ inputs = 0 #store numbers in list
 while inputs < 10:
     try:
         num = float(input(f"Enter number {inputs + 1}:")) 
+        
+        #Check each  inputs in the list: if it is a odd number
+        if num % 2 != 0:
+            odd_numbers += 1
+        inputs +=1    #increase the counters
     except VablueError:
         print("ERROR!!")
 
 
-#Check each  inputs in the list: if it is a odd number increase the counter
+ 
 #print how many odd numvers are in the list
      
