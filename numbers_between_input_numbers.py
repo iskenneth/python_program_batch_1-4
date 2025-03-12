@@ -8,6 +8,9 @@ while True:
             num1, num2 == num2, num1
         start = int(num1) + 1
         end = int(num2)
+        print ("Numbers between: ", end = " ")
+        for num in range (start, end):
+            print (num, end =" ") #Print numbers in between input numbers
+        break
     except ValueError:
         print("Error!!!")
-#Print numbers in between input numbers
