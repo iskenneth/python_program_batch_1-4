@@ -12,3 +12,4 @@ for number in range (10):
 duplicate = set(num for num in list_numbers if list_numbers.count(num) > 1)
 
 #Display only the duplicate numbers (each number is shown once).
+print("Numbers with duplicates:", list(duplicate))
