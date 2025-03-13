@@ -8,7 +8,9 @@ while True:
         print("Displaying sorted numbers")
         break #Stop when an invalid input is entered.
         
-
-
 #Sort the numbers in ascending order.
-#Display the sorted numbers
+if numbers:
+    numbers.sort()
+    print ("Ascending order:", numbers)#Display the sorted numbers
+else: 
+    print("No valid numbers detected")
