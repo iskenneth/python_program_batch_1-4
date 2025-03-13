@@ -1,7 +1,8 @@
 print("to stop the program input invalid character")
 #Ask the user to enter numbers continuously.
 while True:
-    try:        
+    try:
+        num = float(input("Enter a number: "))        
     except ValueError:
         print("Stopping the program...")
         break
