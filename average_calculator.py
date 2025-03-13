@@ -9,4 +9,9 @@ while True:
         break #Stop when the input is invalid.
 
 #Compute the average (sum of numbers divided by count).
-#Display the average.
+if numbers:
+    average = sum(numbers) / len(numbers)
+    print("Average:", average) #Display the average.
+else: 
+    print("Enter a number")
+        
