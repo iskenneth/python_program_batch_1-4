@@ -13,3 +13,6 @@ while count < 10:
 unique_numbers = [num for num in numbers if numbers.count(num) == 1]
 
 #print unique numbers
+print("Numbers without duplicates:")
+for num in unique_numbers:
+    print(num)
