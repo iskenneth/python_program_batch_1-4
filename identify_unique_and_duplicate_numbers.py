@@ -11,9 +11,9 @@ while True:
         else:
             print("Unique")        
         numbers.append(num)
+        #repeat until the user input invalid number to stop
     except ValueError:
         print("Stoping Program")
         break
 
 
-#repeat until the user input invalid number to stop
