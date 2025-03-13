@@ -2,6 +2,7 @@
 print("Good day, this program will stop when you input invalid character")
 while True:
     try:
+        num = float(input("Enter a number: "))
     except ValueError:
         print ("Stopping the program....")
         break
