@@ -1,6 +1,7 @@
 # Input 10 numbers
 count = 0
 numbers = []
+list_numbers = set() # detect input numbers
 while count < 10:
     try:
         num = float(input(f"Enter number{count +1}:"))
