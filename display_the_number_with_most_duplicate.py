@@ -4,7 +4,7 @@ numbers = [] #input storage
 while True:
     try:
         num = float(input("Enter a number: "))
-        numbers.appens(num) #store number
+        numbers.append(num) #store number
     except ValueError:
         print ("Stopping the program....")
         break #Stop when the input is invalid.
