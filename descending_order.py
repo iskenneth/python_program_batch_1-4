@@ -9,4 +9,6 @@ while True:
         break #Stop when the input is invalid.
 
 #Sort the numbers from highest to lowest.
+if inputs:
+    inputs.sort(reverse = true)
 #Display the sorted numbers.
