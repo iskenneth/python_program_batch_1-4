@@ -10,4 +10,6 @@ while count < 10:
         print("Enter a valid character")
 
 #If number is unique keep it
+unique_numbers = [num for num in numbers if numbers.count(num) == 1]
+
 #print unique numbers
