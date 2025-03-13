@@ -10,4 +10,8 @@ while True:
         break #Stop when the input is invalid.
 
 #Count how many times each number appears.
-#Find and display the number that appears the most.
+if numbers:
+    frequent_number = max(set(numbers), key=numbers.count) #find the frequent number
+    print("Most common: ", frequent_number)
+else:
+    print("No valid numbers detected")
