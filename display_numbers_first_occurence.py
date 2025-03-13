@@ -9,5 +9,12 @@ while count < 10:
         count += 1
     except ValueError:
         print("Error!!")
+        
 #Display numbers 
-#If numbers have duplicate print only the first one
+print("List of numbers without repetitions:")
+for num in numbers:
+    if num not in list_numbers: #If numbers have duplicate print only the first one
+        print(num)
+        list_numbers.add(num)
+
+
