@@ -10,5 +10,8 @@ while True:
 
 #Sort the numbers from highest to lowest.
 if inputs:
-    inputs.sort(reverse = true)
-#Display the sorted numbers.
+    inputs.sort(reverse = True)
+    print("Descending order: ", inputs) #Display the sorted numbers.
+else:
+    print("There is no valid number detected")
+    
