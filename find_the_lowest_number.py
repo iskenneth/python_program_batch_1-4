@@ -6,7 +6,10 @@ while True:
         numbers.append(num) #Store all valid numbers.
     except ValueError:
         print("Stopping the program...")
-        break
+        break #Stop when an invalid input is entered.
 
-#Stop when an invalid input is entered.
 #Display the lowest number from the list.
+if numbers:
+    print("Lowest Numbers:", min(numbers))
+else:
+    print ("No valid numbers detected")
